@@ -28,7 +28,7 @@ class ManifestConfig {
 
 ######################### Config ###########################
 
-$RELEASE_VERSION = '2023.Q4'
+$RELEASE_VERSION = '2024.Q1'
 $ProductName = "GLOBAL_MU_DATA"
 
 # Uses the location of the .ps1 file 
