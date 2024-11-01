@@ -21,7 +21,7 @@ And return
 
 ## Tested Environments
 - Windows 10 64-bit Microsoft Visual C++ 14.34, Powershell 5.1
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 - Nmake 14.34
 - Visual Studio 2022 Developer Command Prompt v17.4.2 64-bit
 
@@ -65,8 +65,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/MatchUpObjectGlobal-Cpp
-$ cd MatchUpObjectGlobal-Cpp
+git clone https://github.com/MelissaData/MatchUpObjectGlobal-Cpp
+cd MatchUpObjectGlobal-Cpp
 ```
 
 #### Set up Melissa Updater
@@ -99,24 +99,24 @@ Parameters:
 
     The script will prompt the user for a global txt file and a US txt file, then use the provided txt files to test MatchUp Object Global.  For example:
     ```
-    $ .\MelissaMatchupObjectGlobalWindowsCpp.ps1
+    .\MelissaMatchupObjectGlobalWindowsCpp.ps1
     ```
     For quiet mode:
     ```
-    $ .\MelissaMatchupObjectGlobalWindowsCpp.ps1 -quiet
+    .\MelissaMatchupObjectGlobalWindowsCpp.ps1 -quiet
     ```
 - Command Line 
 
     You can pass a global txt file, US txt file, and a license string into the `-global`, `-us`, and `-license` parameters respectively to test MatchUp Object Global. For example:
     ```
-    $ .\MelissaMatchupObjectGlobalWindowsCpp.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt"
-    $ .\MelissaMatchupObjectGlobalWindowsCpp.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -license "<your_license_string>"
+    .\MelissaMatchupObjectGlobalWindowsCpp.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt"
+    .\MelissaMatchupObjectGlobalWindowsCpp.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -license "<your_license_string>"
     ```
 
 	For quiet mode:
     ```
-    $ .\MelissaMatchupObjectGlobalWindowsCpp.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -quiet
-    $ .\MelissaMatchupObjectGlobalWindowsCpp.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -license "<your_license_string>" -quiet
+    .\MelissaMatchupObjectGlobalWindowsCpp.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -quiet
+    .\MelissaMatchupObjectGlobalWindowsCpp.ps1 -global "MelissaMatchupGlobalSampleInput.txt" -us "MelissaMatchupUSSampleInput.txt" -license "<your_license_string>" -quiet
     ```
 This is the expected output from a successful setup for interactive mode:
 
