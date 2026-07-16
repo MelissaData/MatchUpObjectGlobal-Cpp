@@ -65,8 +65,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-git clone https://git.melissadata.com/dtgroup/melissadataobjectexamples/cpp/melissamatchupobjectglobalwindowscpp.git
-cd melissamatchupobjectglobalwindowscpp
+git clone https://github.com/MelissaData/MatchUpObjectGlobal-Cpp
+cd MatchUpObjectGlobal-Cpp
 ```
 
 #### Set up Melissa Updater
